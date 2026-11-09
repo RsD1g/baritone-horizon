@@ -1,0 +1,12 @@
+[package]
+name = "baritone"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+description = "A Baritone-style walker for Horizon: pathfind, go, and mine."
+
+[lib]
+path = "mixins/baritone/runtime.rs"
+
+[dependencies]
